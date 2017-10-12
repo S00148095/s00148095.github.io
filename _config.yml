@@ -1,2 +1,3 @@
 name: Liam Logan-Davies
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
