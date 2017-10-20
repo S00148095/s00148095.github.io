@@ -4,7 +4,7 @@ title: Liam Logan-Davies' Blog
 ---
 
 <div class="hero-full-container background-image-container white-text-container">
-		<h1>{{ page.title }}</h1>
+		<h2>{{ page.title }}</h2>
 		<table class="table table-bordered centred">
 		{% for post in site.posts %}		
 		<tr><td><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }} - {{ post.date | date_to_string }}</a></td></tr>
